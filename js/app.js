@@ -61,7 +61,7 @@ const createPokemonCard = pokemon => {
       <h3 class="name">${name}</h3>
       <small class="type">Type: <span>${type}</span></small>
     </div>
-        ${name}
+       
     `;
     pokeEl.innerHTML = pokeElInnerHTML;
 
